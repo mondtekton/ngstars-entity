@@ -51,6 +51,14 @@
         </dependency>
     </dependencies>
 
+	<distributionManagement>
+		<repository>
+			<id>ng-stars-entities-github</id>
+			<name>NG-STARs Entities GitHub Packages</name>
+			<url>https://maven.pkg.github.com/mondtekton/ng-stars-entities</url>
+		</repository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
